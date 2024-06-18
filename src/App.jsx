@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 
 import './App.css';
 import CatImage from './CatImage';
@@ -131,6 +132,8 @@ function App() {
           <CatImage key={code.code} {...code} />
         ))}
       </div>
+
+      <Analytics />
     </>
   );
 }
