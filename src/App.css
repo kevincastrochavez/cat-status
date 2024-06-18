@@ -1,0 +1,28 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.statusLevelsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+
+  & > div {
+    padding: 20px;
+    background-color: gray;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+}
+
+.imagesContainer {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
